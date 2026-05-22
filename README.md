@@ -68,12 +68,12 @@ Pre-trained models are placed in the `./checkpoints` folder.
 
 ## Demo
 ### 1. Demo code for Cifar-10 Experiment 
-> python feat_extract.py --in-dataset CIFAR-10  --out-datasets SVHN LSUN LSUN_resize iSUN dtd places365 --name densenet  --model-arch densenet --epochs 1002
+> python feat_extract.py --in-dataset CIFAR-10  --out-datasets SVHN LSUN LSUN_resize iSUN dtd places365 --name densenet  --model-arch densenet --epochs 100
 
 > python run_cifar_densenet.py --in-dataset CIFAR-10  --out-datasets SVHN LSUN LSUN_resize iSUN dtd places365 --name densenet  --model-arch densenet
 
 ### 2. Demo code for Cifar-100 Experiment 
-> python feat_extract.py --in-dataset CIFAR-100  --out-datasets SVHN LSUN LSUN_resize iSUN dtd places365 --name densenet  --model-arch densenet --epochs 1002
+> python feat_extract.py --in-dataset CIFAR-100  --out-datasets SVHN LSUN LSUN_resize iSUN dtd places365 --name densenet  --model-arch densenet --epochs 100
 
 > python run_cifar_densenet_c100.py --in-dataset CIFAR-100  --out-datasets SVHN LSUN LSUN_resize iSUN dtd places365 --name densenet  --model-arch densenet
 
