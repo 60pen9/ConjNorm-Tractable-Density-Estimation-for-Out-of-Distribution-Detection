@@ -22,13 +22,9 @@ os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
 
 prepos_feat = lambda x: np.ascontiguousarray(x[:, range(282, 624)]) # Last Layer only
 
-# CIFAR-10
-t1 = 0.05
-ord_def = 2.2
 
-# # CIFAR-100
-# t1 = 0.08
-# ord_def = 2.5
+t1 = 0.08
+ord_def = 2.5
 
 q = 1/(1-1/ord_def)
 normalizer = lambda x: x / (np.linalg.norm(x, ord=ord_def, axis=-1, keepdims=True) + 1e-10)
