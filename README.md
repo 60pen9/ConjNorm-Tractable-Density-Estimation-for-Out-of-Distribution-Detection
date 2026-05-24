@@ -81,7 +81,7 @@ Pre-trained models are placed in the `./checkpoints` folder.
 ### 3. Demo code for ImageNet Experiment on ResNet50
 > python feat_extract_largescale.py --in-dataset imagenet  --out-datasets inat sun50 places50 dtd  --name resnet50  --model-arch resnet50
 
-> python run_imagenet.py --in-dataset imagenet  --out-datasets inat sun50 places50 dtd  --name resnet50  --model-arch resnet50
+> python run_imagenet_resnet.py --in-dataset imagenet  --out-datasets inat sun50 places50 dtd  --name resnet50  --model-arch resnet50
 
 ### 4. Demo code for ImageNet Experiment on MobileNetv2
 > python feat_extract_largescale.py --in-dataset imagenet  --out-datasets inat sun50 places50 dtd  --name mobilenetv2  --model-arch mobilenetv2
